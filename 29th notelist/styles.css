@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+.container{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+h1{
+    color: blue;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+button{
+    background-color: green;
+    font-weight: 400;
+    color: #fff;
+    outline: none;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input{
+    padding: 5px 10px;
+    font-size: large;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+li{
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: slategrey;
+    color: white;
+}
+.delete-note{
+    background-color: blue;
+    color: #f7f7f7;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}

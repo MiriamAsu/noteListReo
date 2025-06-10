@@ -1,0 +1,48 @@
+body{
+   display: flex;
+   gap: 10px;
+   flex-direction: column;
+    align-items: center;
+    justify-items: center;
+   background-color: slategray;
+}
+#save-button{
+    color: #fff;
+    background: green;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+h1{
+    color: blue;
+}
+#input-note{
+    padding: 4px 10px;
+    font-weight: 14px;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+#input-note::placeholder{
+    color: black;
+}
+.note-menu{
+display: flex;
+justify-content: space-between;
+gap: 100px;
+}
+.deleteButton{
+    background-color: red;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.note-text{
+    background: white;
+    color: #000;
+}

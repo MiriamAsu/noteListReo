@@ -1,0 +1,54 @@
+:root{
+    --gradient: linear-gradient(135deg, rgb(33, 115, 197)0%, #691c63);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: var(--gradient);
+    align-items: center;
+    justify-items: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 800;
+}
+#create-note{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    outline: none;
+    padding: 4px 10px;
+}
+#create-note::placeholder{
+    color: rgb(152, 23, 23);
+    font-size: x-large;
+}
+input{
+    background-color: aqua;
+}
+#activate{
+    display: flex;
+    gap: 10px;
+}
+#note-list{
+    border: 1px solid blue;
+    height: 350px;
+    display: flex;
+    gap: 4px;
+    width: 48%;
+}
+button{
+    display: flex;
+    background-color: green;
+    color: white;
+    font-size: large;
+}
+#note{
+    border: 1px solid white;
+    height: 160px;
+    width: 150px;
+    background-color: grey;
+    box-shadow: 6px 6px 5px rgb(145, 33, 97);
+}

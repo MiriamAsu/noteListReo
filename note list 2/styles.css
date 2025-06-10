@@ -1,0 +1,25 @@
+body{
+    background-color: grey;
+    flex-direction: column;
+}
+#input-note{
+    outline: none;
+    padding: 5px 11px;
+    width: 50%;
+    box-sizing: border-box;
+    background: brown;
+}
+#input-note::placeholder{
+    color: white;
+}
+#note-list{
+    border: 1px purple;
+    height: 300px;
+    display: flex;
+    gap: 10px;
+}
+#note{
+    border: 1px black;
+    height: 130px;
+    width: 130px;
+}
